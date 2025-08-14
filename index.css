@@ -15,15 +15,21 @@ body {
     flex-direction:column;
     align-items:center;
     justify-content:space-around;
+    font-family:"Inter", sans-serif;
+    color:white;
 
 }
 .bottomhalf
 {
     width: 550px;
     height: 444px;
-    background-color:F4F4F4;
+    background-color:#F4F4F4;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
 }
 .inputnum{
+    margin-top:-25px;
     border: 3px solid #B295FF;
     background-color:transparent;
     width:117px;
@@ -50,4 +56,24 @@ button{
     text-align:center;
     border:none;
     border-radius:5px;
+    font-family:"Inter", sans-serif;
+    font-size:15px;
+    margin-top:-10px;
+}
+.header{
+    color:#5A537B;
+    font-size:22px;
+    font-weight:400px;
+    font-family: "Inter", sans-serif;
+
+}
+.box{
+    margin-top:30px;
+    width:500px;
+    height:109px;
+    background-color: white;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
 }
