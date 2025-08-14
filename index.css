@@ -23,3 +23,12 @@ body {
     height: 444px;
     background-color:F4F4F4;
 }
+.inputnum{
+    border: 2px solid white;
+    background-color:transparent;
+    width:117px;
+    height:83px;
+    font-size: 35px;
+    text-align:center;
+
+}
