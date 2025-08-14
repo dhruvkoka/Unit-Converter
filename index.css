@@ -24,11 +24,30 @@ body {
     background-color:F4F4F4;
 }
 .inputnum{
-    border: 2px solid white;
+    border: 3px solid #B295FF;
     background-color:transparent;
     width:117px;
     height:83px;
-    font-size: 35px;
+    font-size: 58px;
     text-align:center;
+    font-family: "Inter", sans-serif;
+    font-weight:bold;
+    color:white;
+    border-radius:5px;
+}
 
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+button{
+    width:117px;
+    height:42px;
+    color: black;
+    background-color: white;
+    text-align:center;
+    border:none;
+    border-radius:5px;
 }
